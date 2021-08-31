@@ -10,7 +10,7 @@ function Search({searchResults}) {
 
     const formattedStartDate = format( new Date(startDate),"dd MMMM yy");
     const formattedEndDate = format( new Date(endDate),"dd MMMM yy");
-    console.log(searchResults);
+    
 
     return (
         <div className="h-screen">
