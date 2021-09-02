@@ -7,7 +7,7 @@ import MediumCard from '../components/MediumCard';
 import SmallCard from '../components/SmallCard';
 
 export default function Home({ exploreData, cardsData}) {
-  console.log(exploreData);
+  
   return (
     <div className="">
       <Head>

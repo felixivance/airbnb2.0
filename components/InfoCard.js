@@ -2,8 +2,7 @@ import { HeartIcon, StarIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
 
 function InfoCard({item}) {
-    console.log("items passed are ")
-    console.log(item)
+
     // description, img, lat, location, long, price, star, title, total
     return (
         <div className="flex py-7 px-2 pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg 
