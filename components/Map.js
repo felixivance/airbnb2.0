@@ -18,7 +18,7 @@ function Map({searchResults}) {
         const [viewport, setViewport] = useState({
             latitude: center.longitude,
             longitude: center.latitude,
-            zoom: 8,
+            zoom: 1,
             width:"100%",
             height:"100%"
         });
